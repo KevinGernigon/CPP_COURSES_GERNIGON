@@ -43,6 +43,18 @@ int main ()
         rainbowRoad.montremScores();
         cout << "La moyenne de vos scores est de :" << endl;
         rainbowRoad.moyenneScores();
+        if (scoreRandom_1 < scoreRandom_2 && scoreRandom_1 < scoreRandom_3)
+        {
+            cout << "Le meilleur score est de " << scoreRandom_1 << ", une véritable performance de la part de " << pseudoJoueur_1 << endl;
+        }
+        if (scoreRandom_2 < scoreRandom_1 && scoreRandom_2 < scoreRandom_3)
+        {
+            cout << "Le meilleur score est de " << scoreRandom_2 << ", une véritable performance de la part de " << pseudoJoueur_2 << endl;
+        }
+        if (scoreRandom_3 < scoreRandom_1 && scoreRandom_3 < scoreRandom_2)
+        {
+            cout << "Le meilleur score est de " << scoreRandom_2 << ", une véritable performance de la part de " << pseudoJoueur_3 << endl;
+        }
     }
     if (choixCourse == 2)
     {
@@ -56,6 +68,18 @@ int main ()
         circuitMario.montremScores();
         cout << "La moyenne de vos scores est de :" << endl;
         circuitMario.moyenneScores();
+        if (scoreRandom_1 < scoreRandom_2 && scoreRandom_1 < scoreRandom_3)
+        {
+            cout << "Le meilleur score est de " << scoreRandom_1 << ", une véritable performance de la part de " << pseudoJoueur_1 << endl;
+        }
+        if (scoreRandom_2 < scoreRandom_1 && scoreRandom_2 < scoreRandom_3)
+        {
+            cout << "Le meilleur score est de " << scoreRandom_2 << ", une véritable performance de la part de " << pseudoJoueur_2 << endl;
+        }
+        if (scoreRandom_3 < scoreRandom_1 && scoreRandom_3 < scoreRandom_2)
+        {
+            cout << "Le meilleur score est de " << scoreRandom_2 << ", une véritable performance de la part de " << pseudoJoueur_3 << endl;
+        }
     }
     if (choixCourse == 3)
     {
@@ -68,7 +92,19 @@ int main ()
         cout << "Voici les scores pour Donjon Bouftou." << endl;
         donjonBouftou.montremScores();
         cout << "La moyenne de vos scores est de :" << endl;
-        donjonBouftou.moyenneScores(); 
+        donjonBouftou.moyenneScores();
+        if (scoreRandom_1 < scoreRandom_2 && scoreRandom_1 < scoreRandom_3)
+        {
+            cout << "Le meilleur score est de " << scoreRandom_1 << ", une véritable performance de la part de " << pseudoJoueur_1 << endl;
+        }
+        if (scoreRandom_2 < scoreRandom_1 && scoreRandom_2 < scoreRandom_3)
+        {
+            cout << "Le meilleur score est de " << scoreRandom_2 << ", une véritable performance de la part de " << pseudoJoueur_2 << endl;
+        }
+        if (scoreRandom_3 < scoreRandom_1 && scoreRandom_3 < scoreRandom_2)
+        {
+            cout << "Le meilleur score est de " << scoreRandom_2 << ", une véritable performance de la part de " << pseudoJoueur_3 << endl;
+        }
     }
     if (choixCourse == 4)
     {
@@ -81,7 +117,19 @@ int main ()
         cout << "Voici les scores pour Need for Speed." << endl;
         needForSpeed.montremScores();
         cout << "La moyenne de vos scores est de :" << endl;
-        needForSpeed.moyenneScores(); 
+        needForSpeed.moyenneScores();
+        if (scoreRandom_1 < scoreRandom_2 && scoreRandom_1 < scoreRandom_3)
+        {
+            cout << "Le meilleur score est de " << scoreRandom_1 << ", une véritable performance de la part de " << pseudoJoueur_1 << endl;
+        }
+        if (scoreRandom_2 < scoreRandom_1 && scoreRandom_2 < scoreRandom_3)
+        {
+            cout << "Le meilleur score est de " << scoreRandom_2 << ", une véritable performance de la part de " << pseudoJoueur_2 << endl;
+        }
+        if (scoreRandom_3 < scoreRandom_1 && scoreRandom_3 < scoreRandom_2)
+        {
+            cout << "Le meilleur score est de " << scoreRandom_2 << ", une véritable performance de la part de " << pseudoJoueur_3 << endl;
+        } 
     }
     if (choixCourse == 5)
     {
@@ -94,7 +142,19 @@ int main ()
         cout << "Voici les scores pour Déjà vu." << endl;
         dejaVu.montremScores();
         cout << "La moyenne de vos scores est de :" << endl;
-        dejaVu.moyenneScores(); 
+        dejaVu.moyenneScores();
+        if (scoreRandom_1 < scoreRandom_2 && scoreRandom_1 < scoreRandom_3)
+        {
+            cout << "Le meilleur score est de " << scoreRandom_1 << ", une véritable performance de la part de " << pseudoJoueur_1 << endl;
+        }
+        if (scoreRandom_2 < scoreRandom_1 && scoreRandom_2 < scoreRandom_3)
+        {
+            cout << "Le meilleur score est de " << scoreRandom_2 << ", une véritable performance de la part de " << pseudoJoueur_2 << endl;
+        }
+        if (scoreRandom_3 < scoreRandom_1 && scoreRandom_3 < scoreRandom_2)
+        {
+            cout << "Le meilleur score est de " << scoreRandom_2 << ", une véritable performance de la part de " << pseudoJoueur_3 << endl;
+        } 
     }
 
 
